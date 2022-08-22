@@ -8,6 +8,9 @@
 
 .navbar {
     background-color: #00ed01;
+    position: fixed;
+    top: 0;
+    width: 100% !important;
   }
   
 .nav-link {
@@ -230,7 +233,17 @@ footer {
     padding: 10px 0;
     text-align: center;
     background-color: #00ed01;
-    height: 40px;
+    height: fit-content;
+}
+
+footer a {
+    padding-left: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+
+footer a:hover {
+    color: black;
 }
 
 @media screen and (max-width:990px) {
